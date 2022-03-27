@@ -1,0 +1,16 @@
+<title>Translate App</title>
+<style>
+    #wrapper {
+        text-align: center;
+    }
+</style>
+
+<div id="wrapper">
+    <form method="post">
+        {{ form.EnterSentence.label }}<br>
+        <p>{{ form.EnterSentence (cols="50", rows="20")}}</p>
+        <br>
+        
+        {{ form.submit }}
+    </form>
+</div>
